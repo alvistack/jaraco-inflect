@@ -1,0 +1,5 @@
+python-inflect (100:6.0.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/jaraco/inflect/releases/tag/v6.0.0
+
+ -- Wong Hoi Sing Edison <hswong3i@gmail.com>  Sun, 14 Aug 2022 19:40:09 +0800
