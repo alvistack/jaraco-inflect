@@ -6,3 +6,5 @@ htmlcov/*
 .tox/*
 *.egg-info
 .coverage
+
+.pybuild/
