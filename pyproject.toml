@@ -1,9 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.2", "setuptools_scm[toml]>=3.4.1"]
+requires = ["setuptools>=61.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "inflect"
+version = "7.4.0"
 authors = [
 	{ name = "Paul Dyson", email = "pwdyson@yahoo.com" },
 ]
@@ -34,7 +35,6 @@ keywords = [
 	"inflect",
 	"participle",
 ]
-dynamic = ["version"]
 
 [project.urls]
 Source = "https://github.com/jaraco/inflect"
@@ -81,9 +81,6 @@ type = [
 
 	# local
 ]
-
-
-[tool.setuptools_scm]
 
 
 [tool.pytest-enabler.mypy]
