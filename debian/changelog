@@ -1,0 +1,5 @@
+python-inflect (100:7.5.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/jaraco/inflect/releases/tag/v7.5.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Sun, 29 Dec 2024 14:20:05 +0800
