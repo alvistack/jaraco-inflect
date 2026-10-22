@@ -1,0 +1,5 @@
+python-inflect source: file-without-copyright-information
+python-inflect source: no-debian-changes
+python-inflect source: source-contains-prebuilt-windows-binary
+python-inflect source: source-is-missing
+python-inflect source: source-package-encodes-python-version

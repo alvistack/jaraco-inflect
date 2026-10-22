@@ -1,0 +1,4 @@
+python3-inflect: copyright-without-copyright-notice
+python3-inflect: initial-upload-closes-no-bugs
+python3-inflect: no-manual-page
+python3-inflect: zero-byte-file-in-doc-directory

@@ -1,14 +1,12 @@
 [build-system]
 requires = [
 	"setuptools>=77",
-	"setuptools_scm[toml]>=3.4.1",
-	# jaraco/skeleton#174
-	"coherent.licensed",
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "inflect"
+version = "7.6.0"
 authors = [
 	{ name = "Paul Dyson", email = "pwdyson@yahoo.com" },
 ]
@@ -28,7 +26,7 @@ classifiers = [
 	"Topic :: Text Processing :: Linguistic",
 ]
 requires-python = ">=3.10"
-license = "MIT"
+license = { text = "MIT" }
 dependencies = [
 	"jaraco.functools",
 	"more_itertools >= 8.5.0",
@@ -39,7 +37,6 @@ keywords = [
 	"inflect",
 	"participle",
 ]
-dynamic = ["version"]
 
 [project.urls]
 Source = "https://github.com/jaraco/inflect"
@@ -88,9 +85,6 @@ type = [
 
 	# local
 ]
-
-
-[tool.setuptools_scm]
 
 
 [tool.pytest-enabler.mypy]
